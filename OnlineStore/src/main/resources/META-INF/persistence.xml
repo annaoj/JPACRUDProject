@@ -4,7 +4,7 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
 
-	<persistence-unit name="VideoStoreXXXXXXXXXXX">
+	<persistence-unit name="OnlineStore">
 		<provider>org.hibernate.jpa.HibernatePersistenceProvider
     </provider>
 
@@ -13,10 +13,10 @@
 <!--  update where XXXX-->
 		<properties>
 			<property name="javax.persistence.jdbc.url"
-				value="jdbc:mysql://localhost:3306/sdvidXXXX?useSSL=false" />
-			<property name="javax.persistence.jdbc.user" value="studentXXXXX" />
+				value="jdbc:mysql://localhost:3306/cryptokittiesdb?useSSL=false" />
+			<property name="javax.persistence.jdbc.user" value="anna" />
 			<property name="javax.persistence.jdbc.password"
-				value="studentXXXXXXXXXX" />
+				value="user123" />
 			<property name="javax.persistence.jdbc.driver"
 				value="com.mysql.jdbc.Driver" />
 			<!-- turn on next 2 lines if you need to see log out -->
