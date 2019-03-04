@@ -8,8 +8,8 @@
 		<provider>org.hibernate.jpa.HibernatePersistenceProvider
     </provider>
 
-<!-- 		<class>com.skilldistillery.jpavideostore.entities.Customer</class>
- -->
+	<class>com.skilldistillery.data.entities.Kitty</class>
+ 
 <!--  update where XXXX-->
 		<properties>
 			<property name="javax.persistence.jdbc.url"

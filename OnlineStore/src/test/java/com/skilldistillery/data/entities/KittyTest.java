@@ -10,11 +10,11 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-class KittieslistingTest {
+class KittyTest {
 	
 	private static EntityManagerFactory emf;
 	private EntityManager em;
-	private Kittieslisting kitty;
+	private Kitty kitty;
 
 	@BeforeAll
 	static void setUpBeforeClass() throws Exception {
@@ -29,7 +29,7 @@ class KittieslistingTest {
 	@BeforeEach
 	void setUp() throws Exception {
 		em=emf.createEntityManager();
-		kitty = em.find(Kittieslisting.class, 1);
+		kitty = em.find(Kitty.class, 1);
 	}
 
 	@AfterEach

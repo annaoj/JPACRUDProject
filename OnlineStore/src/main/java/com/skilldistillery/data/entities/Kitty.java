@@ -1,6 +1,6 @@
 package com.skilldistillery.data.entities;
 
-import java.util.Date;
+import java.sql.Date;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -11,7 +11,7 @@ import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
 @Entity
-public class Kittieslisting {
+public class Kitty {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -26,7 +26,7 @@ public class Kittieslisting {
 	
 	private String description;
 	
-	@Temporal(TemporalType.DATE)
+	
 	@Column(name="date_of_birth")
 	private Date dateOfBirth;
 	
@@ -37,6 +37,7 @@ public class Kittieslisting {
 	@Column(name="img_url")   
 	private String imgUrl;
 	
+	@Column(name="on_sale") 
 	private String onSale;
 	
 	@Column(name="crypto_id") 
@@ -51,14 +52,12 @@ public class Kittieslisting {
 	@Column(name="eye_colour")   
 	private String eyeColour;
 	
-	@Override
-	public String toString() {
-		return "Kittieslisting [id=" + id + ", name=" + name + ", generation=" + generation + ", priceEth=" + priceEth
-				+ ", description=" + description + ", dateOfBirth=" + dateOfBirth + ", color=" + color + ", price="
-				+ price + ", imgUrl=" + imgUrl + ", onSale=" + onSale + ", cryptoId=" + cryptoId + ", motherId="
-				+ motherId + ", fatherId=" + fatherId + ", eyeColour=" + eyeColour + ", pattern=" + pattern + ", fur="
-				+ fur + ", mouth=" + mouth + "]";
-	}
+	private String pattern;
+	
+	private String fur;
+	
+	private String mouth;   
+	
 
 	public int getId() {
 		return id;
@@ -196,10 +195,14 @@ public class Kittieslisting {
 		this.mouth = mouth;
 	}
 
-	private String pattern;
-	
-	private String fur;
-	
-	private String mouth;    
+
+	@Override
+	public String toString() {
+		return "Kitty [id=" + id + ", name=" + name + ", generation=" + generation + ", priceEth=" + priceEth
+				+ ", description=" + description + ", dateOfBirth=" + dateOfBirth + ", color=" + color + ", price="
+				+ price + ", imgUrl=" + imgUrl + ", onSale=" + onSale + ", cryptoId=" + cryptoId + ", motherId="
+				+ motherId + ", fatherId=" + fatherId + ", eyeColour=" + eyeColour + ", pattern=" + pattern + ", fur="
+				+ fur + ", mouth=" + mouth + "]";
+	}
 		
 }
