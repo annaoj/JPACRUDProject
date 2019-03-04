@@ -19,7 +19,7 @@ public class KittyController {
 	@Autowired
 	private KittyDAO kittyDAO;
 
-	@RequestMapping(path = "/", method = RequestMethod.GET)
+	@RequestMapping(path= {"/", "home.do"}, method = RequestMethod.GET)
 	public String index(Model model) {
 
 		model.addAttribute("kitties", kittyDAO.findAll());

@@ -2,7 +2,7 @@
     pageEncoding="UTF-8"%>
 
 <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
-  <a class="navbar-brand" href="/">
+  <a class="navbar-brand" href="home.do">
   <img alt="" width="40px" src="https://cdn3.vectorstock.com/i/1000x1000/72/82/cats-in-love-logo-icon-vector-21297282.jpg"/>
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

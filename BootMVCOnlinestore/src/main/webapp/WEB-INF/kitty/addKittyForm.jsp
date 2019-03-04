@@ -109,29 +109,29 @@
 					<input name="name" class="form-element-field"
 						placeholder="Please fill in your kitty name" type="input" required />
 					<div class="form-element-bar"></div>
-					<label class="form-element-label" for="name">Name</label>
-				</div>
+<!-- 					<label class="form-element-label" for="name">Name</label>
+ -->				</div>
 
 				<div class="form-element form-input">
 					<input name="name" class="form-element-field"
 						placeholder="Please fill in generation num" type="input" required />
 					<div class="form-element-bar"></div>
-					<label class="form-element-label" for="generation">generation</label>
-				</div>
+<!-- 					<label class="form-element-label" for="generation">generation</label>
+ -->				</div>
 				
 				<div class="form-element form-input">
 					<input name="priceEth" class="form-element-field"
 						placeholder="Please fill in generation num" type="number" required />
 					<div class="form-element-bar"></div>
-					<label class="form-element-label" for="generation">Price(Eth)</label>
-				</div>
+<!-- 					<label class="form-element-label" for="generation">Price(Eth)</label>
+ -->				</div>
 								<div class="form-element form-textarea">
 					<textarea name="description"
 						class="form-element-field" placeholder="description "></textarea>
 					<div class="form-element-bar"></div>
-					<label class="form-element-label"
+				<!-- 	<label class="form-element-label"
 						for="description">Your
-						description</label>
+						description</label> -->
 
 				</div>
 							
@@ -139,14 +139,14 @@
 					<input name="motherId" class="form-element-field"
 						placeholder="Please fill in motherId" type="number" required />
 					<div class="form-element-bar"></div>
-					<label class="form-element-label" for="motherId">Mother</label>
-				</div>
+<!-- 					<label class="form-element-label" for="motherId">Mother</label>
+ -->				</div>
 								<div class="form-element form-input">
 					<input name="fatherId" class="form-element-field"
 						placeholder="Please fill in motherId" type="number" required />
 					<div class="form-element-bar"></div>
-					<label class="form-element-label" for="fatherId">Father</label>
-				</div>
+<!-- 					<label class="form-element-label" for="fatherId">Father</label>
+ -->				</div>
 
 
 				<div class="form-element form-input ">
