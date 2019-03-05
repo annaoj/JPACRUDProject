@@ -8,7 +8,7 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <jsp:include page="../bootstrap/bootstrapHead.jsp" />
-
+<link rel="stylesheet" type="text/css" href="../../css/formCard.css" />
 </head>
 <body>
 	<jsp:include page="../navigation/navigation.jsp" />
